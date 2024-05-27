@@ -1,0 +1,21 @@
+# run: mamba env create --file environment.yml
+# remove: mamba env remove -n caob
+name: caob
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python
+  - pyqt
+  - numpy
+  - matplotlib
+  - scipy
+  - pandas
+  - pyarrow
+  - sqlalchemy
+  - tqdm
+  - jupyterlab
+  - xlrd
+  - openpyxl
+  - apsg
+
