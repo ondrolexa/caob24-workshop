@@ -6,11 +6,11 @@
 
 | Time | Topic | Packages |
 |-------|-------|----------|
-|10:00-11:30|**Introduction to Python programming**|          |
-|11:30-11:45|*Break*|          |
-|10:45-12:30|**Scientific Python**|Numpy, matplotlib|
-|12:30-13:30|*Lunch*|          |
-|13:30-16:00|**Python for structural geology**|APSG|
+|10:00-11:30|**Introduction to Python programming**|         |
+|11:30-11:45|*Break*|                                        |
+|10:45-12:30|**Scientific Python**| numpy, pandas, matplotlib|
+|12:30-13:30|*Lunch*|                                        |
+|13:30-16:00|**Python for structural geology**| apsg         |
 
 ## Install software - JupyterLab, Python
 
@@ -26,7 +26,9 @@ From the Start menu select the **Miniforge Prompt**. Change the active working d
 
 Install all needed Python packages by executing the following command:
 
+```console
 > mamba env create --file environment.yml
+```
 
 Click Enter to proceed, wait a few minutes, and installation is done.
 
@@ -34,13 +36,14 @@ Click Enter to proceed, wait a few minutes, and installation is done.
 
 ​To open JupyterLab you need to activate the workshop environment and run Jupyter Lab. Open Miniforge Prompt and enter the following commands:
 
+```console
 > mamba activate caob
 > jupyter lab
-
+```
 ​
 After a successful launch, you should see the JupyterLab running in your browser.
 
-To exit the `caob` environment, just cloas the command promt
+To exit the `caob` environment, just close the Miniforge prompt.
 
 Alternatively, if you would rather not set up a Python environment on your machine, you may run the course materials using Binder by clicking on the **launch binder** button at the top of this page.
 
