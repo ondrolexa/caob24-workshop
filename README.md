@@ -2,6 +2,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ondrolexa/caob24-workshop/main)
 
+## https://github.com/ondrolexa/caob24-workshop
+
 ## Schedule
 
 | Time | Topic | Packages |
