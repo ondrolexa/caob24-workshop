@@ -2,8 +2,6 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ondrolexa/caob24-workshop/main)
 
-## https://github.com/ondrolexa/caob24-workshop
-
 ## Schedule
 
 | Time | Topic | Packages |
@@ -21,6 +19,8 @@ If you want to participate actively, you must install Python and **JupyterLab** 
 ​Download and execute the latest [miniforge installer](https://github.com/conda-forge/miniforge). There are known issues with using special characters and spaces in the installation location. We recommend users install in a directory without any such characters in the name e.g. `C:\Users\john\miniforge3`
 
 ## Downloading Course Materials and create environment
+
+## https://github.com/ondrolexa/caob24-workshop
 
 Download and unzip the [workshop material](https://github.com/ondrolexa/caob24-workshop/archive/refs/heads/main.zip). It is suggested to unzip it into your home directory e.g. `C:\Users\john\caob24-workshop`
 
